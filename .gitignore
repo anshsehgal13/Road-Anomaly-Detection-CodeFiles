@@ -1,0 +1,17 @@
+# Ignore Node modules
+node_modules/
+
+# Ignore Python virtual environment folders (if present)
+venv/
+.env/
+
+# Ignore temporary files
+__pycache__/
+*.pyc
+
+# Ignore model files (as earlier)
+*.h5
+*.hdf5
+*.pt
+*.pth
+/model/
